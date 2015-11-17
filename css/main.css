@@ -1,0 +1,140 @@
+h1{font-family: 'Slabo 27px', serif;}
+
+section{
+	background-image:url(../img/pat.jpg);
+	padding:20px;
+	overflow:hidden;}
+
+.inlineb{display:inline-block;} 
+
+/*HEADER*/
+.backheader{
+	background-image:url(../img/aereo.jpg);
+	background-size:cover;
+  overflow:hidden;
+	background-position:0% 50%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;}
+
+.conheader{
+  background-color: rgba(255,255,102,0.8);
+  overflow:hidden;
+  display:inline-block;
+  position:relative;
+  margin:140px 0px;
+  bottom:80px;
+  left:70px;
+  z-index:999;
+  padding:100px;
+  height:430px;
+  width:500px;
+  border:3px solid black;
+  border-radius:100% 100% 5% 90%;}
+
+.conheader h1{font-size:50px} 
+
+.cat{
+  position:relative;
+  bottom:120px}
+
+hr{
+  border:1px solid grey;
+  width:200px}
+/*MENU*/
+a, span{
+	color:white !important}
+
+.marnav{padding:0px 10px}  
+/*SECTION*/
+.imagen{
+	height:350px;
+	width:550px;
+  margin:5px;}	
+
+/*SOBRE MI*/
+.me{
+  border-radius:20%;
+  height:300px}
+
+.hab{
+  height:150px;
+  margin:40px}
+
+/*CONTACTO*/
+
+.contacto{
+  height:400px;
+  margin:200px 0px}
+
+.social {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow:
+    0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.github {
+  background-color: black;
+  color: white;
+}
+/*FOOTER*/
+footer{
+	background-color:black;
+	height:60px;
+	padding:20px;
+	color:white;}
+
+
+
+
+
+
+
+
